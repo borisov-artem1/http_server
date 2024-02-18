@@ -16,7 +16,7 @@ typedef enum error_t {
     SETOPT_ERR  = -3,
     PARSE_ERR   = -4,
     BIND_ERR    = -5,
-    LISTEN_ERR  = -6,
+    LISTEN_ERR  = -6
 } error_t;
 
 extern int listen_net(char *address) {
